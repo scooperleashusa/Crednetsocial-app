@@ -1,0 +1,33 @@
+package.json
+{
+      "name": "crednet-frontend",
+        "version": "1.0.0",
+          "private": true,
+            "scripts": {
+                    "dev": "next dev",
+                        "build": "next build",
+                            "start": "next start"
+            },
+              "dependencies": {
+                    "next": "14.1.0",
+                        "react": "18.2.0",
+                            "react-dom": "18.2.0"
+              }
+}
+              }
+            }
+}
+next.config.js
+app
+page.js
+export default function Home() {
+      return (
+          <div style={{ padding: 40, fontSize: 24 }}>
+                <h1>CredNet</h1>
+                      <p>Your mobile‑smooth public app is alive.</p>
+                          </div>
+                            );
+                            }
+                            
+}
+
