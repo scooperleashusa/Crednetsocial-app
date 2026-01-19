@@ -1,0 +1,124 @@
+body {
+      margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          background: #05060a;
+            color: #f5f5f5;
+            }
+
+            .app-shell {
+              display: flex;
+                flex-direction: column;
+                  min-height: 100vh;
+                  }
+
+                  .app-header,
+                  .app-footer {
+                    padding: 16px 24px;
+                      background: #0b0d14;
+                        border-bottom: 1px solid #1b1e2b;
+                        }
+
+                        .app-footer {
+                          border-top: 1px solid #1b1e2b;
+                            margin-top: auto;
+                            }
+
+                            .app-nav {
+                              display: flex;
+                                gap: 16px;
+                                  padding: 8px 24px;
+                                    background: #080a10;
+                                      border-bottom: 1px solid #1b1e2b;
+                                      }
+
+                                      .app-nav a {
+                                        color: #c5c7ff;
+                                          text-decoration: none;
+                                            font-size: 0.9rem;
+                                            }
+
+                                            .app-nav a.active {
+                                              font-weight: 600;
+                                                border-bottom: 2px solid #c5c7ff;
+                                                }
+
+                                                .app-main {
+                                                  padding: 24px;
+                                                  }
+
+                                                  .page-credai {
+                                                    display: grid;
+                                                      grid-template-columns: 280px 1fr;
+                                                        gap: 24px;
+                                                        }
+
+                                                        .credai-sidebar {
+                                                          background: #0b0d14;
+                                                            padding: 16px;
+                                                              border-radius: 12px;
+                                                                border: 1px solid #1b1e2b;
+                                                                }
+
+                                                                .credai-chat {
+                                                                  background: #0b0d14;
+                                                                    padding: 16px;
+                                                                      border-radius: 12px;
+                                                                        border: 1px solid #1b1e2b;
+                                                                          display: flex;
+                                                                            flex-direction: column;
+                                                                              height: 70vh;
+                                                                              }
+
+                                                                              .credai-messages {
+                                                                                flex: 1;
+                                                                                  overflow-y: auto;
+                                                                                    margin-bottom: 12px;
+                                                                                    }
+
+                                                                                    .credai-message {
+                                                                                      margin-bottom: 8px;
+                                                                                        font-size: 0.9rem;
+                                                                                        }
+
+                                                                                        .credai-message-user strong {
+                                                                                          color: #c5c7ff;
+                                                                                          }
+
+                                                                                          .credai-message-system strong,
+                                                                                          .credai-message-assistant strong {
+                                                                                            color: #7de2ff;
+                                                                                            }
+
+                                                                                            .credai-input-row {
+                                                                                              display: flex;
+                                                                                                gap: 8px;
+                                                                                                }
+
+                                                                                                .credai-input-row input {
+                                                                                                  flex: 1;
+                                                                                                    padding: 8px 10px;
+                                                                                                      border-radius: 8px;
+                                                                                                        border: 1px solid #2a2d3f;
+                                                                                                          background: #05060a;
+                                                                                                            color: #f5f5f5;
+                                                                                                            }
+
+                                                                                                            .credai-input-row button {
+                                                                                                              padding: 8px 14px;
+                                                                                                                border-radius: 8px;
+                                                                                                                  border: none;
+                                                                                                                    background: #c5c7ff;
+                                                                                                                      color: #05060a;
+                                                                                                                        font-weight: 600;
+                                                                                                                          cursor: pointer;
+                                                                                                                          }
+
+                                                                                                                          .symbolic-name span {
+                                                                                                                            font-weight: 600;
+                                                                                                                              letter-spacing: 0.03em;
+                                                                                                                              }
+
+                                                                                                                              .breadcrumb-score h3 {
+                                                                                                                                margin-bottom: 4px;
+                                                                                                                                }
+}
