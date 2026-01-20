@@ -1,22 +1,21 @@
 {
-      "name": "crednetsocial-app",
-        "version": "1.0.0",
-          "private": true,
-            "scripts": {
-                "start": "react-scripts start",
-                    "build": "react-scripts build",
-                        "test": "react-scripts test",
-                            "eject": "react-scripts eject",
-                                "deploy": "firebase deploy"
-                                  },
-                                    "dependencies": {
-                                        "firebase": "^11.0.0",
-                                            "react": "^18.3.0",
-                                                "react-dom": "^18.3.0",
-                                                    "react-router-dom": "^6.28.0"
-                                                      },
-                                                        "devDependencies": {
-                                                            "react-scripts": "5.0.1"
-                                                              }
-                                                              }
+  "name": "crednetsocial-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "firebase": "^11.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  }
 }

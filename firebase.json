@@ -1,17 +1,18 @@
 {
-    "hosting": {
-        "public": "build",
-            "ignore": [
-                  "firebase.json",
-                        "**/.*",
-                              "**/node_modules/**",
-                                    "backend/**"
-                                        ],
-                                            "rewrites": [
-                                                  {
-                                                          "source": "**",
-                                                                  "destination": "/index.html"
-                                                                        }
-                                                                            ]
-                                                                              }
-                                                                              }
+  "hosting": {
+    "site": "studio-4958282561-b402e-ab144",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "backend/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

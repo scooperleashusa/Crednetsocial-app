@@ -3,16 +3,36 @@
   "version": "1.0.0",
   "description": "CredNet Social Application",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build -l 3000",
+    "clean": "rm -rf build node_modules/.cache"
   },
   "dependencies": {
+    "@genkit-ai/ai": "^1.27.0",
+    "@genkit-ai/google-genai": "^1.27.0",
+    "@genkit-ai/googleai": "^1.27.0",
     "firebase": "^10.14.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^7.12.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^3.5.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.5.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
