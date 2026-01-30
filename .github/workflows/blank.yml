@@ -26,10 +26,8 @@ jobs:
 
       - name: Build application
         run: npm run build
-        env:
-          CI: false
 
+      # Note: --passWithNoTests allows workflow to pass when no tests exist yet
+      # Once test suite is added, this flag can be removed to enforce testing
       - name: Run tests
         run: npm test -- --watchAll=false --passWithNoTests
-        env:
-          CI: true
